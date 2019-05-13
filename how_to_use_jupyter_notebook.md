@@ -14,13 +14,13 @@ Then you'll see the application opening in the web browser on the following addr
 
 ![demo1](./jup-nb-demo/content_jupyternotebook1.gif)
 
-## Tabs**
-* Files Tab : The "Files" tab is where all your files are kept.
-* Running Tab: "Running" tab keeps track of all your processes.
-* Cluster Tab:  "Clusters", is provided by IPython parallel, IPython's parallel computing framework. It allows you to control many individual engines, which are an extended version of the IPython kernel.
+## Tabs
+* Files Tab : The `Files` tab is where all your files are kept.
+* Running Tab: `Running` tab keeps track of all your processes.
+* Cluster Tab:  `Clusters` is provided by IPython parallel, IPython's parallel computing framework. It allows you to control many individual engines, which are an extended version of the IPython kernel.
 
 ## Making a New Notebook
-You can easily do this by clicking on the "New button" in the "Files tab".
+You can easily do this by clicking on the `New button` in the `Files tab`.
 
 You see that you have the option to make a regular text file, a folder, and a terminal.
 
