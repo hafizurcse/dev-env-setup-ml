@@ -1,6 +1,7 @@
-# dev-env-setup-ml
 
-Steps for Windows Machine:
+# How to set up your Dev Environment for Machine Learning/DNN/CNN etc?
+
+## Windows Machine
 
 1. Download and install Anaconda3 for your Windows from:
 https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
@@ -22,7 +23,7 @@ The above packages will be installed in your conda root.
 
 5. Test Package Versions
 
-Check your Keras, TensorFlow, Pandas, h5py, sklearn versions in your terminal. I have shown how to see Python version and version of other packages in Linux environment. 
+Check your `Keras`, `TensorFlow`, `Pandas`, `h5py`, `sklearn` versions in your terminal. I have shown how to see Python version and versions of other packages in `Linux` environment. 
 ```
 hafizur@hafizur-MacBookPro:~/dev/hafiz_dev/machine_learning/$ python
 Python 3.6.1 |Anaconda custom (64-bit)| (default, May 11 2017, 13:09:58)
@@ -52,9 +53,10 @@ To find out how to use, please visit: https://www.codecademy.com/articles/how-to
 
 Now you can start building your Machine Learning, DNN, CNN algorithms. Congratulations!!!
 
-The following is optional specially for one who needs a virtual environment
 
-**Virtual Environment**
+The following is optional specially for one who needs a virtual environment hence can be entirely discarded if you are happy with above setting.
+
+## Virtual Environment
 
 But if you prefer to create a environment variable which offers flexibility in having different version of Pythons, different packages according to your project necessity.
 
