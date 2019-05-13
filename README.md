@@ -19,7 +19,7 @@ conda install jupyter
 
 pip install sklearn
 ```
-The above packages will be installed in your conda root.
+The above packages will be installed in your conda root. We don't need to install TensorFlow seperately since Keras by default installs it's dependencies such as numpy, scipy, tensorflow etc.
 
 5. Test Package Versions
 
