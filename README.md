@@ -1,5 +1,5 @@
 
-# How to set up your Dev Environment for Machine Learning/DNN/CNN etc?
+# How to Setup your Dev Environment for Machine Learning/DNN/CNN etc?
 
 ## Windows Machine
 
@@ -80,7 +80,7 @@ conda install pandas
 
 pip install sklearn
 ```
-A virtual environment called `py3_ml_env` is created which is using **Python 3.7, keras, tensorflow, h5py, pandas, sklearn**.
+A virtual environment called `py3_ml_env` is created which is using **Python 3.7, keras, tensorflow, h5py, pandas, and sklearn**.
 
 Let's say my another project needs Python 2.7 and it is NOT using Deep Learning, CNN or DNN, so let's create another virtual environment called `py2_ml_env`:
 ```
