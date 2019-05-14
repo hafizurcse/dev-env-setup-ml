@@ -80,20 +80,16 @@ conda install pandas
 
 pip install sklearn
 ```
-A virtual environment called `py3_ml_env` is created which is using Python 3.7.
+A virtual environment called `py3_ml_env` is created which is using **Python 3.7, keras, tensorflow, h5py, pandas, sklearn**.
 
-Let's say my another project needs Python 2.7, so let's create another virtual environment called `py2_ml_env`:
+Let's say my another project needs Python 2.7 and it is NOT using Deep Learning, CNN or DNN, so let's create another virtual environment called `py2_ml_env`:
 ```
-conda create --name py2_ml_env python=2.7
+conda create --name py2_env python=2.7
 
-activate py2_ml_env
-
-conda install keras
-
-conda install h5py 
+activate py2_env
 
 conda install pandas
 
 pip install sklearn
 ```
-A virtual environment called `py2_ml_env` is created which is using Python 2.7.
+A virtual environment called `py2_env` is created which is using **Python 2.7, pandas and sklearn**.
