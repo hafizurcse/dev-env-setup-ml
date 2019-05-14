@@ -62,15 +62,15 @@ The answer is it depends. If the above installtion is working for you and you do
 ### Why do I need Virtual Environments?
 Anaconda supports you can have multiple environments each with your personalized choices such as Env1 with Python 2.7 while Env2 with Python 3.6 together with other python packages. You are free to choose what version works best for you. 
 
-### How to create a Virtual Environment?
+### How to create Multiple Virtual Environments?
 
-Once you have Anaconda installed, the next stage is to use python 3.6 or 3.7 on the new environment called `ml_env` (you can choose any name what you wish).
+Once you have Anaconda installed, the next stage is to use Python 2.7, 3.6 or 3.7 on the new environment called `py3_ml_env` (you can choose any name what you wish).
 
 Follow the steps in your Anaconda Command Prompt:
 ```
-conda create --name ml_env python=3.7
+conda create --name py3_ml_env python=3.7
 
-activate ml_env
+activate py3_ml_env
 
 conda install keras
 
@@ -80,4 +80,20 @@ conda install pandas
 
 pip install sklearn
 ```
-A virtual environment called `ml_env` is created.
+A virtual environment called `py3_ml_env` is created which is using Python 3.7.
+
+Let's say my another project needs Python 2.7, so let's create another virtual environment called `py2_ml_env`:
+```
+conda create --name py2_ml_env python=2.7
+
+activate py2_ml_env
+
+conda install keras
+
+conda install h5py 
+
+conda install pandas
+
+pip install sklearn
+```
+A virtual environment called `py2_ml_env` is created which is using Python 2.7.
