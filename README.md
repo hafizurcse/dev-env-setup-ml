@@ -54,11 +54,14 @@ To find out how to use, please visit: https://www.codecademy.com/articles/how-to
 Now you can start building your Machine Learning, DNN, CNN algorithms. Congratulations!!!
 
 
-The following is optional specially for one who needs a virtual environment hence can be entirely discarded if you are happy with above setting.
+## How to create Multiple Environments?
+### Do I need create an Environment?
+The answer is it depends. If the above installtion is working for you and you dont need multiple versions of Python or you don't have a variety of requirements for the projects you are working on, then, you don't need to worry about creating a *Virtual Environment*. 
 
-## Virtual Environment
+### Why do I need Virtual Environments?
+Anaconda supports you can have multiple environments each with your personalized choices such as Env1 with Python 2.7 while Env2 with Python 3.6 together with other python packages. You are free to choose what version works best for you. 
 
-But if you prefer to create a environment variable which offers flexibility in having different version of Pythons, different packages according to your project necessity.
+Once you have Anaconda installed, the next stage is to use python 3.6 or 3.7 on the new environment called `ml_env` (you can choose any name what you wish).
 
 Follow the steps in your Anaconda Command Prompt:
 ```
