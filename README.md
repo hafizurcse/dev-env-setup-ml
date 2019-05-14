@@ -62,7 +62,7 @@ The answer is it depends. If the above installtion is working for you and you do
 ### Why do I need Virtual Environments?
 Anaconda supports you can have multiple environments each with your personalized choices such as Env1 with Python 2.7 while Env2 with Python 3.6 together with other python packages. You are free to choose what version works best for you. 
 
-### How to create a Virtual Environments?
+### How to create a Virtual Environment?
 
 Once you have Anaconda installed, the next stage is to use python 3.6 or 3.7 on the new environment called `ml_env` (you can choose any name what you wish).
 
